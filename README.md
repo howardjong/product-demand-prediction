@@ -1,2 +1,2 @@
 # product-demand-prediction
-This code uses random forest regression to predict the unit demand of products.
+This code uses random forest regression to predict the unit demand of over 2000 products on a day-to-day basis. The data is fairly large with > 1M rows, but relatively few features, which results in weak predictability on the demand extremes. In real business terms, the poor predictabiltiy of very large demands (>3000 units) means the model isn't helpful in that range. Nonetheless, the implemtation of this model serves as a reasonable indicator of predicting demand for the majority of the unit orders with Spearman rho value of 82%.
